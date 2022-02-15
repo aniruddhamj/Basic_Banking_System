@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Basic Banking System</title>
+        <meta name="viewport" content="width=device-width ,initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Gabriela&display=swap" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" >
+        <link rel="stylesheet" href="main.css">
+        
+    </head>
+    
+    <body id="body1">
+        <section id="header">
+            <div class="container">
+                <div class="logoParent">
+                    <div><img src="images/logo_spark.png" class="logo"></div>
+                    <div class="titlesss"><b style="color: rgb(235, 105, 18);">Sparks_Bank of India</b></div>
+                    <div><img src="images/logo_spark.png" class="logo"></div>
+                
+        </section>
+        <nav id="sideNav">
+            <ul>
+                <li><a href="main.html">➤HOME</a></li>
+                <li><a href="Register.php">➤ADD NEW USER</a></li>
+                <li><a href="userss.php">➤CUSTOMERS INFO</a></li>
+                <li><a href="users.php">➤TRANSFER MONEY</a></li>
+                <li><a href="history.php">➤TRANSACTION HISTORY</a></li>
+                
+            </ul>
+        </nav>
+        <img src="images/menu.png" id="menuBtn">
+
+
+<!---FEATURES--->
+<div id="content">
+<p>
+    <center>
+        <h1 style="font-family: 'Brush Script MT', cursive; font-size: xx-large;"><b>✦SBI✦</b></h1></p>
+            <h2 style="color:orangered;">Online Banking Simplified</h2></p></center></br>
+    <center><h3>No more waiting in the long queues ,transfer the money very conveniently with the help of our SBI Banking System.</h3></center>
+</p></br></br>
+
+    <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="images/register1.png"></br>
+<p>Register New User to take</br>Benefit of Bank's Services</p> </br>
+                <a href="Register.php"><button class="button">ADD NEW USER</button></a>
+            </div>
+            <div class="feature-col">
+                <img src="images/customers.png">
+            </br><p>Information about all  </br>Customer's</p> </br>
+               <a href="userss.php"> <button class="button" >CUSTOMERS INFO</button></a>
+            </div>
+            <div class="feature-col">
+                <img src="images/transferMoney.png">
+                </br> <p>Easily Transfer Money from</br>One's account to Another's</p> </br>
+                <a href="users.php"><button class="button">TRANSFER MONEY</button></a>
+                <br>
+            </div>
+            <div class="feature-col">
+                <img src="images/history.png">
+            </br><p>Transaction Table which record</br>all Transfers happened</p> </br>
+                <a href="history.php"><button class="button" >TRANSACTION HISTORY</button></a>
+            </div>
+            
+            
+        </div>
+        
+    </section>
+
+</div>
+
+<!-- FOOTER-->
+
+
+
+        <script>
+            var menuBtn=document.getElementById("menuBtn");
+            var sideNav=document.getElementById("sideNav");
+            sideNav.style.right="-250px"
+            menuBtn.onclick=function(){
+                if(sideNav.style.right=="-250px"){
+                    sideNav.style.right="0px";
+                }
+                else{
+                    sideNav.style.right="-250px";
+                }
+            }
+        </script>
+    </body>
+</html>
