@@ -1,3 +1,6 @@
 #_Basic Banking System
 Project for The Sparks Foundation GRIP  
-Bank Name:Spark Bank of India -->
+Task Name:Spark Bank of India -->
+technology:HTML,CSS,PHP,MYSQL
+Batch:Feburary 2022
+
